@@ -1,0 +1,33 @@
+.match-card {
+  width: 150px;
+  height: 250px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  font-family: 'bree serif';
+  margin-right: 3px;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.team-logoo {
+  height: 35px;
+  width: 35px;
+}
+.status {
+  font-size: 13px;
+  color: gold;
+}
+
+.namee {
+  font-size: 15px;
+  font-weight: 600;
+}
+.resultt {
+  font-size: 13px;
+}

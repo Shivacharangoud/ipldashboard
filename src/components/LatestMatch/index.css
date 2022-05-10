@@ -1,0 +1,45 @@
+.latest-match-con {
+  width: 100%;
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 5px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-bottom: 5px;
+}
+
+.latest-match-main-details-container {
+}
+.latest-match-main-details-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-color: aqua;
+}
+.team-logo {
+  height: 70px;
+  width: 70px;
+}
+.competing-team-heading {
+  font-weight: 600;
+  font-size: 23px;
+}
+@media (min-width: 768px) {
+  .latest-match-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .latest-match-main-details-logo-container {
+    border-width: 0px;
+    width: 55%;
+  }
+  .latest-match-additional-details-container {
+    text-align: right;
+  }
+}
